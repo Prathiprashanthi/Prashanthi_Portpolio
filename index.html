@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <!-- basic -->
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <!-- mobile metas -->
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+      <!-- site metas -->
+      <title>Prashanthi</title>
+      <meta name="keywords" content="">
+      <meta name="description" content="">
+      <meta name="author" content="">
+      <!-- bootstrap css -->
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+      <!-- style css -->
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <!-- Responsive-->
+      <link rel="stylesheet" href="css/responsive.css">
+      <!-- fevicon -->
+      <link rel="icon" href="images/fevicon.png" type="image/gif" />
+      <!-- Scrollbar Custom CSS -->
+      <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css">
+      <!-- Tweaks for older IEs-->
+      <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+      <!-- owl stylesheets --> 
+      <link rel="stylesheet" href="css/owl.carousel.min.css">
+      <link rel="stylesheet" href="css/owl.theme.default.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+   </head>
+   <body>
+      <!--header section start -->
+      <div class="header_section">
+         <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+               <div class="logo"><a href="index.html"><span style="font-size:30px;">Full Stack Developer</span></a></div>
+               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav mr-auto">
+                     <li class="nav-item">
+                         <a class="nav-link" href="index.html">Home</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#about">About</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#skills">Skills</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#projects">Projects</a>
+                     </li>
+                     <li class="nav-item">
+                         <a class="nav-link" href="#contact">Contact Us</a>
+                     </li>
+                 </ul>
+                  
+               </div>
+            </nav>
+         </div>
+         <!--banner section start -->
+         <div class="banner_section layout_padding">
+            <div class="container">
+               <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+                  <div class="carousel-inner">
+                     <div class="carousel-item active">
+                         <p class="banner_text" style="margin-left:300px;">I'm</p>
+                         <h1 class="banner_taital" style="margin-left:350px;">Prashanthi</h1>
+                         <div class="read_bt" style="margin-left:900px;">
+                           <a id="downloadBtn1" href="media/Prashanthi_Resume.pdf">Download CV</a>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                         <p class="banner_text" style="margin-left:300px;">I'm</p>
+                         <h1 class="banner_taital" style="margin-left:350px;">Prashanthi</h1>
+                         <div class="read_bt" style="margin-left:900px;">
+                           <a id="downloadBtn2" href="media/Prashanthi_Resume.pdf">Download CV</a>
+                        </div>
+                     </div>
+                     <div class="carousel-item">
+                         <p class="banner_text" style="margin-left:300px;">I'm</p>
+                         <h1 class="banner_taital" style="margin-left:350px;">Prashanthi</h1>
+                         <div class="read_bt" style="margin-left:900px;">
+                           <a id="downloadBtn3" href="media/Prashanthi_Resume.pdf">Download CV</a>
+                        </div>
+                     </div>
+                 </div>
+                 
+                 
+                 <script>
+                  function downloadResume(event) {
+                      event.preventDefault();
+                      const link = document.createElement('a');
+                      link.href = event.target.href; // Use event.target.href to get the correct href attribute
+                      link.download = 'Prashanthi_Resume.pdf';
+                      link.click();
+                  }
+              
+                  document.getElementById('downloadBtn1').addEventListener('click', downloadResume);
+                  document.getElementById('downloadBtn2').addEventListener('click', downloadResume);
+                  document.getElementById('downloadBtn3').addEventListener('click', downloadResume);
+              </script>
+               </div>
+            </div>
+         </div>
+         <!--banner section end -->
+      </div>
+      
+      <!--header section end -->
+      <!--language  section start -->
+      <div class="language_section layout_padding">
+         <div class="container">
+            <h1 class="language_taital">My Services</h1>
+            <div class="language_section_2 layout_padding">
+               <div class="row">
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/fig1.png"></div>
+                        <h6 class="heavy_text">Web<br>Development</h6>
+                     </div>
+                    
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/fig3.png"></div>
+                        <h6 class="heavy_text">Front End <br>Development</h6>
+                     </div>
+                   
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/fig2.png"></div>
+                        <h6 class="heavy_text">Back End<br>Development</h6>
+                     </div>
+                     
+                  </div>
+                  <div class="col-lg-3 col-sm-6">
+                     <div class="box_main">
+                        <div class="icon_1"><img src="images/fig4.png"></div>
+                        <h6 class="heavy_text">Full Stack<br>Development</h6>
+                     </div>
+                     
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!--language  section end -->
+      <h1 class="language_taital" style="margin-left:200px;">About</h1>
+      <section>
+         <div id="about" class="about_section layout_padding">
+            <div class="container shadow-box">
+               <div><a href="#"><img src="images/pic1.png"style="height:400px; width:600px;"></a></div>
+               <div class="about_section_2">
+                  <div class="row">
+                     <div class="col-md-6" style="margin-top: -55px;">
+
+                        <div class="projects-completed-container">
+                           <h1>Name:</h1>
+                           <div style="font-size:18px;color:black">Prashanthi</div>
+                        </div>
+                        <div class="projects-completed-container">
+                           <h1>Job Role:</h1>
+                           <div style="font-size:18px;color:black">Full Stack Developer</div>
+                        </div>
+                        <div class="projects-completed-container">
+                           <h1>Experience:</h1>
+                           <div style="font-size:18px;color:black"> 1 Years 0 Months</div>
+                        </div>
+                        <div class="projects-completed-container">
+                           <h1>Address:</h1>
+                           <div style="font-size:18px;color:black">Hyderabad, India</div>
+                        </div>
+                        <div class="social_icon">
+                           <ul>
+                              <li><a href="https://github.com/Prathiprashanthi?tab=repositories"><img src="images/code.png"></a></li>
+                              <li><a href="https://www.linkedin.com/in/prashanthi-pratthi-a17a30251/"><img src="images/linkedin.png"></a></li>
+                           </ul>
+                        </div>                           <!-- Add more circles as needed -->                                          </div>
+                     <div class="col-md-6" style="margin-top: -55px;">
+                        <h1>Experience</h1>
+                        <p style="color:black">I have 1 years of working experience as a Full Stack Developer, specializing in Django, MySQL, HTML, CSS, and Bootstrap.</p>
+                        <div class="projects-completed-container">
+                           <h1>Projects Completed</h1>
+                           <div class="circle_number">5</div>
+                        </div>
+
+                           <!-- Add more circles as needed -->                     
+                        <div class="appoinment_bt" style="margin-left:50px;"><a href="resume.html">Resume</a></div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+
+      <div class="courses_section layout_padding">
+         <div class="container">
+            <h1 class="courses_taital">Education</h1>
+            <section class="py-5">
+               <div class="container">
+                   <div class="row">
+                       <div class="col-lg-6 mx-auto">
+           
+                           <!-- CUSTOM BLOCKQUOTE -->
+                           <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                               <div class="blockquote-custom-icon  shadow-sm text-white" style="background-color:#270b60;">Bachelor's Degree</div>
+                               <p class="mb-0 mt-2 font-italic"><a href="#" class="text-dark">B.SC(MECS),Osmania University</p>
+                                 <p class="mb-0 mt-2 font-italic"> Grade: First class distinction.</p>
+
+                               <footer class=" pt-4 mt-4 border-top">2015-2018
+            
+                               </footer>
+                           </blockquote><!-- END -->
+           
+                       </div>
+                       <div class="col-lg-6 mx-auto">
+           
+                        <!-- CUSTOM BLOCKQUOTE -->
+                        <blockquote class="blockquote blockquote-custom bg-white p-5 shadow rounded">
+                            <div class="blockquote-custom-icon  shadow-sm text-white"style="background-color:#270b60;">Post-Graduate Degree</div>
+                            <p class="mb-0 mt-2 font-italic"> <a href="#" class="text-dark">Master Of Computer Science,Osmania University</p>
+                              <p class="mb-0 mt-2 font-italic"> Grade: First class distinction.</p>
+                            <footer class=" pt-4 mt-4 border-top">2019-2022
+                             
+                            </footer>
+                        </blockquote><!-- END -->
+        
+                    </div>
+                   </div>
+               </div>
+           </section>
+         </div>
+      </div>
+      
+      <div id="skills" class="courses_section layout_padding">
+         <div class="container">
+            <h1 class="courses_taital">Skills</h1>
+            <p class="courses_text">It is a long established fact that a reader will be distracted by the readable c</p>
+            <div class="courses_section_2 shadow-box">
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/python.png"style="height:50px; width:50px;"><span class="padding_left_15">PYTHON</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">90%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/django.png"style="height:50px; width:50px;"><span class="padding_left_15">DJANGO</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">95%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/mysql.png"style="height:50px; width:50px;"><span class="padding_left_15">MYSQL</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">80%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/browser.png"style="height:50px; width:50px;"><span class="padding_left_15">HTML/CSS</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">90%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/js.png"style="height:50px; width:50px;"><span class="padding_left_15">JS</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">80%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/api.png"style="height:50px; width:50px;"><span class="padding_left_15">REST-API</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">70%</h6>
+               </div>
+               <div class="flag_main">
+                  <div class="flag_text"><img src="images/bootstrap.png"style="height:30px; width:30px;"><span class="padding_left_15">BOOTSTRAP</span></div>
+                  <hr class="border_bg">
+                  <h6 class="learn_text active">90%</h6>
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <div id="projects" class="events_section layout_padding margin_90">
+         <div class="container ">
+            <h1 class="events_taital">Projects</h1>
+            <p class="events_text">I have successfully completed several projects as a Full Stack Developer, utilizing technologies such as Django, MySQL, HTML, CSS,JS and Bootstrap.</p>
+            <div class="events_section_2">
+               <div class="row shadow-box">
+                  <div class="col-md-6">
+                     <div class="">
+                        <img src="images/Capture5.JPG" class="image_7">
+                     </div>
+                     <p class="lorem_text">Developed a web application to facilitate education in rural areas by providing access to class-wise study materials and enabling students to 
+                        apply for loans and scholarships </p>
+                     <div class="time_section">
+                        <div class="live_text">Rural Education System</div>
+                        <div class="date_text">01 May 2024</div>
+                     </div>
+                  </div>
+                  <div class="col-md-6">
+                     <div class="">
+                        <img src="images/Capture6.JPG" class="image_7">
+                     </div>
+                     <p class="lorem_text">Helemet is a comprehensive web application designed to enhance helmet safety compliance and awareness among motorcycle riders. </p>
+                     <div class="time_section">
+                        <div class="live_text">Helmet & Triple Ride Detection</div>
+                        <div class="date_text">01 FEB 2024</div>
+                     </div>
+                  </div>
+                  
+               </div>
+            </div>   
+            <div class="read_bt" style="padding-top:50px;"></div>
+               <div class="events_section_2">
+                  <div class="row shadow-box">
+                     <div class="col-md-6">
+                        <div class="">
+                           <img src="images/Capture2.PNG" class="image_7">
+                        </div>
+                        <p class="lorem_text">The Credit-Card Fraud Detection System is a sophisticated web application designed to identify and prevent fraudulent credit card transactions</p>
+                        <div class="time_section">
+                           <div class="live_text">Credit-Card Fraud Transaction</div>
+                           <div class="date_text">01 Jan 2024</div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="">
+                           <img src="images/Capture3.PNG" class="image_7">
+                        </div>
+                        <p class="lorem_text">The Waste Classification System is an intelligent web application designed to automate the process of waste sorting and classification. </p>
+                        <div class="time_section">
+                           <div class="live_text">Waste Classification</div>
+                           <div class="date_text">01 Dec 2023</div>
+                        </div>
+                     </div>
+                    
+                     
+                  </div>
+                  <div style="padding-top:50px;"></div>
+                  <div class="row shadow-box">
+                     <div class="col-md-6">
+                        <div class="">
+                           <img src="images/Capture1.PNG" class="image_7">
+                        </div>
+                        <p class="lorem_text">The Car Price Prediction & Detection System is a web application designed to estimate the market value of used cars and detect potential anomalies or fraud in car listings. </p>
+                        <div class="time_section">
+                           <div class="live_text">Car Price Prediction & Detection</div>
+                           <div class="date_text">01 Nov  2023</div>
+                        </div>
+                     </div>
+                     <div class="col-md-6">
+                        <div class="">
+                           <img src="images/fig5.PNG" class="image_7">
+                        </div>
+                        <p class="lorem_text">
+                           Developed a comprehensive Clinic Management System to streamline clinic operations, enhance patient care, and improve administrative
+                           efficiency.
+                           </p>
+                        <div class="time_section">
+                           <div class="live_text">Clinic Management System</div>
+                           <div class="date_text">01 Aug 2023</div>
+                        </div>
+                     </div>
+                  </div>
+                  
+               <div class="read_bt" style="padding-top:100px;"></div>
+            </div>
+         </div>
+      </div>
+      
+         
+      <div id="contact" class="footer_section" style="padding-top: 100px;">
+         <div class="container shadow-box">
+            <h1 class="courses_taital">Get In Touch</h1>
+            <div class="email_box">
+               <div class="input_main">
+                  <form id="contactForm">
+                     <div class="form-group">
+                         <input type="text" class="email-bt" placeholder="Name" name="Name">
+                     </div>
+                     <div class="form-group">
+                         <input type="text" class="email-bt" placeholder="Phone" name="Phone">
+                     </div>
+                     <div class="form-group">
+                         <input type="text" class="email-bt" placeholder="Email" name="Email">
+                     </div>
+                     <div class="form-group">
+                         <textarea class="massage-bt" placeholder="Message" rows="5" name="Massage"></textarea>
+                     </div>
+                     <button type="submit" class="send_btn">Send</button>
+
+                 </form>
+               </div>
+               <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+               <script>
+                  document.addEventListener('DOMContentLoaded', function() {
+                      const form = document.getElementById('contactForm');
+          
+                      form.addEventListener('submit', function(event) {
+                          event.preventDefault(); // Prevent the default form submission
+          
+                          // Retrieve form data
+                          const name = form.querySelector('input[name="Name"]').value;
+                          const phone = form.querySelector('input[name="Phone"]').value;
+                          const email = form.querySelector('input[name="Email"]').value;
+                          const message = form.querySelector('textarea[name="Massage"]').value;
+          
+                          // Store the form data (you can use localStorage, send it to a server, etc.)
+                          localStorage.setItem('contactDetails', JSON.stringify({
+                              name: name,
+                              phone: phone,
+                              email: email,
+                              message: message
+                          }));
+          
+                          // Show SweetAlert message
+                          Swal.fire({
+                              title: 'Success!',
+                              text: 'Your contact details have been saved.',
+                              icon: 'success',
+                              confirmButtonText: 'OK'
+                          });
+          
+                          // Optionally clear the form
+                          form.reset();
+                      });
+                  });
+              </script>
+            </div>
+            <div class="call_main">
+               <div class="call_text"><img src="images/phone-call.png" style="height:50px; width:50px;"><span class="padding_left_15" style="color:black;">9949803766</span></div>
+               <div class="call_text"><img src="images/gmail.png"style="height:50px; width:50px;"><span class="padding_left_15"style="color:black;">pprashanthi169@gmail.com</span></div>
+            </div>
+            <div class="social_icon">
+               <ul>
+                  <li><a href="https://github.com/Prathiprashanthi?tab=repositories"><img src="images/code.png"></a></li>
+                  <li><a href="https://www.linkedin.com/in/prashanthi-pratthi-a17a30251/"><img src="images/linkedin.png"></a></li>
+               </ul>
+            </div>
+         </div>
+      </div>
+      <script>
+         document.addEventListener('DOMContentLoaded', () => {
+            const scrollLinks = document.querySelectorAll('a[href^="#"]');
+          
+            scrollLinks.forEach(link => {
+              link.addEventListener('click', function(event) {
+                event.preventDefault();
+                const targetID = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetID);
+                
+                window.scrollTo({
+                  top: targetElement.offsetTop,
+                  behavior: 'smooth'
+                });
+              });
+            });
+          });
+      </script>
+     
+       
+
+
+      <!--copyright section start -->
+      <div class="copyright_section">
+         <div class="container">
+            <p class="copyright_text"> 2024 All Rights Reserved. Design by <a href="html.design">Prashanthi</a></p>
+         </div>
+      </div>
+      <!--copyright section end -->
+      <!-- Javascript files-->
+      <script src="js/jquery.min.js"></script>
+      <script src="js/popper.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+      <script src="js/jquery-3.0.0.min.js"></script>
+      <script src="js/plugin.js"></script>
+      <!-- sidebar -->
+      <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+      <script src="js/custom.js"></script>
+      <!-- javascript --> 
+      <script src="js/owl.carousel.js"></script>
+      <script src="https:cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+   </body>
+</html>
